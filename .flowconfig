@@ -1,0 +1,26 @@
+[ignore]
+.*/node_modules/.*
+.*/node_modules/styled-components/src/.*
+# .*/node_modules/redux-saga-test-plan/.*
+# .*/node_modules/config-chain/test/broken.json
+# .*/node_modules/npmconf/test/.
+
+[include]
+
+[libs]
+# ./Types.js
+# node_modules/styled-components/flow-typed/react-native.js
+# node_modules/styled-components/flow-typed/glamor_vx.x.x.js
+# node_modules/styled-components/flow-typed/lodash_v4.x.x.js
+# node_modules/styled-components/flow-typed/inline-style-prefixer_vx.x.x.js
+
+[options]
+# module.system.node.resolve_dirname=app
+# esproposal.class_static_fields=enable
+# esproposal.class_instance_fields=enable
+# module.system.node.resolve_dirname=node_modules
+# experimental.strict_type_args=true
+# munge_underscores=true
+# suppress_type=$FlowIssue
+# suppress_type=$FlowFixMe
+# suppress_type=$FixMe

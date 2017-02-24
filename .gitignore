@@ -1,0 +1,16 @@
+.gitexcludes
+
+node_modules/
+coverage/
+mysite.template
+Dockerfile
+Dockerfile.dev
+Dockerfile.nginx
+docker-compose.yml
+docker-compose-old.yml
+webpack/report.html
+nginx
+dist
+.DS_Store
+.env
+.env.example

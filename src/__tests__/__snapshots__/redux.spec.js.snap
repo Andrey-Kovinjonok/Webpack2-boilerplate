@@ -1,0 +1,109 @@
+exports[`test ADD_MESSAGE 1`] = `
+Object {
+  "type": "ADD_MESSAGE",
+  "value": "SOME TEXT MESSAGE",
+}
+`;
+
+exports[`test INIT popup 1`] = `
+Object {
+  "data": Object {
+    "data": Object {
+      "isShowingPopup": true,
+    },
+  },
+  "type": "INIT_DATA",
+}
+`;
+
+exports[`test INIT popup 2`] = `
+Object {
+  "isShowingPopup": false,
+}
+`;
+
+exports[`test INIT popup 3`] = `
+Object {
+  "isShowingPopup": true,
+}
+`;
+
+exports[`test INIT storage 1`] = `
+Object {
+  "data": Object {
+    "treePath": Array [
+      "data",
+      "someFlag",
+    ],
+    "value": true,
+  },
+  "type": "INIT_DATA",
+}
+`;
+
+exports[`test INIT storage 2`] = `
+Object {
+  "data": Object {
+    "messages": Array [],
+  },
+}
+`;
+
+exports[`test INIT storage 3`] = `
+Object {
+  "data": Object {
+    "messages": Array [],
+  },
+}
+`;
+
+exports[`test INIT storage 4`] = `
+Object {
+  "data": Object {
+    "messages": Array [
+      Object {
+        "id": 0,
+        "text": "test",
+      },
+    ],
+  },
+}
+`;
+
+exports[`test READ_MESSAGES_AND_OR_CHANGE_POPUP_STATE popup 1`] = `
+Object {
+  "type": "READ_MESSAGES_AND_OR_CHANGE_POPUP_STATE",
+  "value": undefined,
+}
+`;
+
+exports[`test READ_MESSAGES_AND_OR_CHANGE_POPUP_STATE popup 2`] = `
+Object {
+  "type": "READ_MESSAGES_AND_OR_CHANGE_POPUP_STATE",
+  "value": Object {
+    "isShowingPopup": true,
+  },
+}
+`;
+
+exports[`test READ_MESSAGES_AND_OR_CHANGE_POPUP_STATE popup 3`] = `
+Object {
+  "isShowingPopup": false,
+}
+`;
+
+exports[`test READ_MESSAGES_AND_OR_CHANGE_POPUP_STATE storage 1`] = `
+Object {
+  "type": "READ_MESSAGES_AND_OR_CHANGE_POPUP_STATE",
+  "value": undefined,
+}
+`;
+
+exports[`test READ_MESSAGES_AND_OR_CHANGE_POPUP_STATE storage 2`] = `
+Object {
+  "type": "READ_MESSAGES_AND_OR_CHANGE_POPUP_STATE",
+  "value": Object {
+    "numberReaded": 5,
+  },
+}
+`;
